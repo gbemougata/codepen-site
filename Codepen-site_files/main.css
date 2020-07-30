@@ -1,0 +1,15 @@
+
+
+.column-center > .header h1{
+  color:blue;
+}
+
+.header h1{
+  font-family: 'Roboto Condensed', sans-serif;
+   color:#fff;
+   font-size: 20px;
+
+}
+.img-logo{
+  color:white;
+}

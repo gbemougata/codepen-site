@@ -1,0 +1,57 @@
+.first-button i {
+    color: green;
+}
+.first-button button, .second-button button, .third-button button {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 10px
+    padding-left:10px;
+    text-align: center;
+    cursor: pointer;
+    opacity: 1;
+    transition-duration: 0.5s;
+}
+.first-button button:hover, .second-button button:hover, .third-button button:hover {
+    background-color: #32a852;
+    border-radius: 25%;
+    filter: brightness(50%);
+    animation: fadeIn 3s linear fordward;
+    transform: scale(2, 0.7);
+    transform-origin: left;
+    margin-right: 45px;
+}
+.third-button button {
+    margin-left: 5px;
+}
+.first-button i {
+    color: green;
+}
+.second-button button {
+    margin-left: 20px;
+}
+.buttons-both {
+    display: flex;
+    text-align: center;
+}
+.buttons-both>.button-1 button {
+    background-color: green;
+    width: 160px;
+    font-size: 12px;
+}
+.buttons-both>.button-2 button {
+    background-color: #000;
+    color: #fff;
+    width: 140px;
+    margin-left: 5px;
+}
+.button-1 button, .button-2 button {
+    padding: 30px;
+    cursor: alias;
+    outline: none;
+}
+.button-1 button:focus, .button-2 button:focus {
+    cursor: cell;
+    color: navy;
+    filter: brightness(4px);
+    font-size: 24px;
+}

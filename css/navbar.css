@@ -1,0 +1,38 @@
+
+/****decrease image size***/
+.navigation-wrapper > .left-column > .logo img{
+  width:100px;
+  margin-top: 32px;
+    color:#fff;
+
+
+ }
+
+
+
+.navigation-wrapper{
+  display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #000;
+    padding-bottom: 8px;
+}
+
+
+.nav-links a{
+  display: inline-block;
+    padding: 5px;
+}
+
+
+.links-wrapper > .nav-links a{
+  color:#fff;
+  transition: 0.5s;
+}
+.links-wrapper > .nav-links a:hover{
+  font-family: 'Roboto Condensed', sans-serif;
+  color:#ff8000;
+  border-bottom: 2px solid #ff8000;
+  line-height: 1rem;
+  cursor: alias;
+}

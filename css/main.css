@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#45484d+0,000000+100;Black+3D+%231 */
+    background: rgb(69, 72, 77);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(69, 72, 77, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(69, 72, 77, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(69, 72, 77, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000', GradientType=0);
+    /* IE6-9 */
+}
+.column-center>.header h1 {
+    color: blue;
+}
+.center-column .header h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 37px;
+    color: yellow;
+    margin-left: -10px;
+}
+.header-and-background-img img {
+    width: 520px;
+    margin-top: -23px;
+    text-align: center;
+}
+.header-and-background-img h1 {
+    text-align: center;
+    margin-right: 80px;
+    color: #fff;
+}
+.both-columns>.phrases-and-buttons-wrapper p {
+    line-height: 40px;
+}
+.both-columns {
+    display: flex;
+    justify-content: space-between;
+}
+.phrases-and-buttons-wrapper {
+    margin-bottom: 60px;
+    margin-left: 40px;
+    font-size: 30px;
+}
+.phrases-and-buttons-wrapper>.first-phrase-and-wave-icon i {
+    font-size: 23px;
+    color: yellow;
+    transform: rotate(-34deg);
+}
+.header {
+    margin-bottom: -20px;
+}
+h1 strong {
+    color: blue;
+}
+.first-phrase-and-wave-icon p strong {
+    color: white;
+}
+.first-phrase-and-wave-icon p, .second-phrase {
+    color: grey;
+}
